@@ -18,10 +18,8 @@ body {
     height: 100%;
 }
 
-.bigfont{
-  font-size: 36px;
-}
 
+/*page7*/
 .teacher{
   background-image: url(../img/7_back.png);
   background-size: cover;
@@ -70,4 +68,8 @@ body {
   top: 9rem;
 
 }
-
+/*page5*/
+.slide5{
+  background-image: url(../img/5_back.png);
+  background-size: cover;
+}
