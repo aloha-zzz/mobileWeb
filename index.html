@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Swiper demo</title>
+    <title>山东大学数据检索实验室</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="css/swiper.min.css">
@@ -16,13 +16,20 @@
 <body>
     <!-- Swiper -->
     <div class="swiper-container">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide" id="slide1">背景图
-
-               
-                
+        <div class="swiper-wrapper animatedParent">
+            <div class="swiper-slide slide1" id="slide1">
+                <img class="rocket animated fadeInUp delay-250" src="img/rocket.png">
+                <img class="cloudleft animated fadeIn" src="img/1_cloud2.png">
+                <img class="cloudright animated fadeIn" src="img/1_cloud3.png">
+                <img class="middle animated fadeIn delay-500" src="img/middle.png">
+                <img class="oneBotImg animated fadeInUpShort" src="img/btcloud.png">
             </div>
             <div class="swiper-slide slide2" id="slide2">
+
+
+                    <img class="twotopimg animated" id="playintwo" src="img/2_topcloud.png">
+
+                <img class="twoirimg" src="img/irlogo.png">
                 <span class="twotitle"><b>实验室简介</b></span>
                 <p class="twocontent">山东大学信息检索实验室，历史悠久，由上世纪80年代留日的马军教授创立。主要研究方向为信息检索、多媒体计算、和数据挖掘。近5年承担国家和省部级项目30多项，经费千余万元。</p>
                 <img class="twoimg" src="img/teacher.png">
@@ -30,15 +37,20 @@
                 <p class="twolinetwo twoline">二级教授</p>
                 <p class="twolinethree twoline">因年龄问题不再招生</p>
             </div>
-            <div class="swiper-slide" id="slide3">
-                <img src="img/outphoto.png">
-                <span><b>实验室成员</b></span>
-                <!--<p>现有教授2人、副教授2人、助理教授2人、学术助理1人，教师100%拥有长期海外顶级实验室经历，梯队结构合理。现有在校博士后3人、博士8人、硕士30余人。已出站博士后3人、毕业博士19人、硕士60余人。每年招收博士2人，硕士20人。</p>-->
+            <div class="swiper-slide slide3" id="slide3">
+                <img class="threeimg" src="img/outphoto.png">
+                <span class="threetitle"><b>实验室成员</b></span>
+                <p class="threecontent">现有教授2人、副教授2人、助理教授2人、学术助理1人，教师100%拥有长期海外顶级实验室经历，梯队结构合理。现有在校博士后3人、博士8人、硕士30余人。已出站博士后3人、毕业博士19人、硕士60余人。每年招收博士2人，硕士20人。</p>
+                <img class="threeBotImg animated" id="playinthree" src="img/btcloud.png">
             </div>
-            <div class="swiper-slide" id="slide4">
-                <span><b>学生成果</b></span>
-                <!--<p>在校生科研成果突出，其中最高奖学金&#45;&#45;国家奖学金，已经连续三年获得全院总名额的1/3左右。毕业生有15人在海内外知名高校任教，在工业界的工作单位的主要分布在微软、阿里、百度、京东、腾讯等。大部分硕士毕业生起薪在25万以上，其中不乏多个工作5年年薪达百万的同学。</p>-->
-                <!--<img src="img/party.jpg">-->
+            <div class="swiper-slide slide4" id="slide4">
+                <img class="thesun animated" id="sun" src="img/4_sun.png">
+
+                <span class="fourtitle"><b>学生成果</b></span>
+                <p class="fourcontent">在校生科研成果突出，其中最高奖学金--国家奖学金，已经连续三年获得全院总名额的1/3左右。毕业生有15人在海内外知名高校任教，在工业界的工作单位的主要分布在微软、阿里、百度、京东、腾讯等。大部分硕士毕业生起薪在25万以上，其中不乏多个工作5年年薪达百万的同学。</p>
+                <img class="fourImg" src="img/party.jpg">
+                <img class="box" src="img/4_box.png">
+                <img class="fourBotImg animated" id="playinfour" src="img/btcloud.png">
             </div>
             <div class="swiper-slide slide5" id="slide5">
                 <span class="fiveTitle"><b>培养理念</b></span>
@@ -48,12 +60,17 @@
                 <p class="fivefour five">承诺博士至少1年的海外交流机会并提供充足的生活保障</p>
                 <p class="fivefive five">针对工业界和学术界取向的硕士生，则根据取向因材施教</p>
             </div>
-            <div class="swiper-slide" id="slide6">
-                <span><b>招生要求</b></span>
-                <!--<p>实验室计划于2017年招收2名博士和20名硕士（即2018年入学，保送生优先）。同时招收若干名高年级本科实习生。招生对象是计算机、软件、自动化、数学、和统计等相关专业学生。 希望申请的学生具有以下基本素养：</p>-->
-                <p>1）有很强的上进心和科研热情</p>
-                <p>2）至少熟悉一门编程语言</p>
-                <p>3）具有扎实的英语和数学基础</p>
+            <div class="swiper-slide slide6" id="slide6">
+                <img class="animated topimg" id="down" src="img/6_bg.png">
+                <div class="animated delay-750" id="word">
+                <img class="icon" src="img/6_icon.png">
+                <span class="sixTitle"><b>招生要求</b></span>
+                <p class="sixContent">实验室计划于2017年招收2名博士和20名硕士（即2018年入学，保送生优先）。同时招收若干名高年级本科实习生。招生对象是计算机、软件、自动化、数学、和统计等相关专业学生。 希望申请的学生具有以下基本素养：</p>
+                <p class="sixlineone">1）有很强的上进心和科研热情</p>
+                <p class="sixlinetwo">2）至少熟悉一门编程语言</p>
+                <p class="sixlinethree">3）具有扎实的英语和数学基础</p>
+                </div>
+                <img class="animated sixcloud" id="playinsix" src="img/6_btcloud.png">
             </div>
             <div class="swiper-slide teacher" id="slide7">
                 <img class="teacherImg" src="img/teacher1.png">
@@ -85,9 +102,16 @@
                 <span class="teacherName">宋雪萌</span>
                 <p class="intro">山东大学计算机学院助理教授。分别于2016年取得新加坡国立大学，计算机科学系博士学位，2012年取得中国科学技术大学，电子工程与信息科学系学士学位。研究方向主要包括信息检索，用户建模和社会网络分析。 在国际顶级学术期刊和会议，包括ACM SIGIR, ACM MM, ACM TOIS等已发表多篇论文。</p>
                 <p class="info">邮箱：songxuemeng@sdu.edu.cn</p>
-                <p class="infoBot">主页：<a target="_blank" href="http://ir.sdu.edu.cn/~xuemengsong/">http://ir.sdu.edu.cn/~xuemeng<br/>song</a></p>
+                <p class="infoBot">主页：<a target="_blank" href="http://ir.sdu.edu.cn/~xuemengsong/" class="smalllink">http://ir.sdu.edu.cn/~xuemengsong</a></p>
             </div>
-            <div class="swiper-slide" id="slide11">背景图
+            <div class="swiper-slide slide8" id="slide11">
+                <p class="eighttitle">趁现在&nbsp;放飞梦想</p>
+                <p class="eightlineone">山东大学信息检索实验室</p>
+                <p class="eightlinetwo">欢迎你</p>
+
+
+                    <img class="eightimg animated" id="playineight" src="img/8_cloud.png">
+
             </div>
            
         </div>
