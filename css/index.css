@@ -9,7 +9,7 @@ html, body {
 }
 body {
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 28px;
+   
     margin: 0;
     padding: 0;
 }
@@ -17,11 +17,57 @@ body {
     width: 100%;
     height: 100%;
 }
-.swiper-slide{
-   	width:640px;
-   	height:1136px;
-  
-}
+
 .bigfont{
   font-size: 36px;
 }
+
+.teacher{
+  background-image: url(../img/7_back.png);
+  background-size: cover;
+  color: #ac8c4c;
+}
+.teacherImg{
+  width:2rem;
+  height:3rem;
+  position: absolute;
+  left: 0.4rem;
+  top:1.2rem;
+  
+}
+.teacherIntro{
+  font-size: 0.32rem;
+  position: absolute;
+  top: 3.26rem;
+  left: 2.6rem;
+  font-weight: bold;
+}
+.teacherName{
+  font-size: 0.41rem;
+  font-weight: bold;
+  position: absolute;
+  top: 3.7rem;
+  left: 2.6rem;
+}
+.intro{
+  position: absolute;
+  right: 0.4rem;
+  left: 0.4rem;
+  top:4.6rem;
+  font-size: 0.3rem;
+  
+}
+.info{
+  font-size: 0.32rem;
+  position: absolute;
+  left: 0.4rem;
+  bottom: 2.5rem;
+}
+.infoBot{
+  font-size: 0.32rem;
+  position: absolute;
+  left: 0.4rem;
+  top: 9rem;
+
+}
+
