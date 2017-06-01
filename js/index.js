@@ -33,6 +33,6 @@ setInterval(function () {
         $("#down").addClass("fadeInDown");
         $("#word").addClass("fadeIn");
     }else if(height==(-screenHeight*10)){
-		$("#playineight").addClass("growIn");
+		$("#playineight").addClass("fadeInUpShort");
 	}
 },500)
