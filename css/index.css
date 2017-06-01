@@ -115,3 +115,54 @@ body {
   left:1.4rem;
   right:0.4rem;
 }
+.slide2{
+    background-image: url(../img/2_back.png);
+    background-size: cover;
+    color: #ffffff;
+}
+.twotitle{
+    font-size: 0.41rem;
+    position: absolute;
+    top:1.9rem;
+    left:2.4rem;
+    color: #ddf0fa;
+}
+.twocontent{
+    font-size: 0.32rem;
+    position: absolute;
+    top:2.9rem;
+    left:0.4rem;
+    right: 0.4rem;
+    font-weight: lighter;
+    line-height: 0.5rem;
+}
+.twoimg{
+    width:1.8rem;
+    height:2.5rem;
+    position: absolute;
+    top:5.8rem;
+    left:0.4rem;
+}
+.twoline{
+    color: #005581;
+}
+.twolineone{
+    font-size: 0.32rem;
+    font-weight: bold;
+    position: absolute;
+    top:6.8rem;
+    left:2.4rem;
+}
+.twolinetwo{
+    font-size: 0.32rem;
+    font-weight: bold;
+    position: absolute;
+    top:6.4rem;
+    left:2.4rem;
+}
+.twolinethree{
+    font-size: 0.32rem;
+    position: absolute;
+    top:7.4rem;
+    left:2.4rem;
+}
