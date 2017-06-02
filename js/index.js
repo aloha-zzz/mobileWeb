@@ -19,22 +19,56 @@ window.onresize=function init() {
 
 setInterval(function () {
     var height= $("#slide1").offset().top;
-    if(height==0){
-
-	}else if(height==(-screenHeight)){
+    
+    if(height==(-screenHeight)){
 		$("#playintwo").addClass("fadeInDownShort");
-	}else if(height==(-screenHeight*2)){
+	}
+    if((height>(-screenHeight*0))||(height<(-screenHeight*2))){
+        $("#playintwo").removeClass("fadeInDownShort");
+    }
+
+    if(height==(-screenHeight*2)){
+        $("#outphoto").addClass("fadeInDownShort");
         $("#playinthree").addClass("fadeInUpShort");
-	}else if(height==(-screenHeight*3)){
+	}
+    if((height>(-screenHeight*1))||(height<(-screenHeight*3))){
+        $("#outphoto").removeClass("fadeInDownShort");
+        $("#playinthree").removeClass("fadeInUpShort");
+    }
+
+    if(height==(-screenHeight*3)){
         $("#playinfour").addClass("fadeInUpShort");
         $("#sun").addClass("tada");
-	}else if(height==(-screenHeight*5)){
+	}
+    if((height>(-screenHeight*2))||(height<(-screenHeight*4))){
+        $("#playinfour").removeClass("fadeInUpShort");
+        $("#sun").removeClass("tada");
+    }
+    if(height==(-screenHeight*5)){
         $("#playinsix").addClass("fadeInUpShort");
         $("#down").addClass("fadeInDown");
         $("#word").addClass("fadeIn");
-    }else if(height==(-screenHeight*10)){
+    }
+    if((height>(-screenHeight*4))||(height<(-screenHeight*6))){
+        $("#playinsix").removeClass("fadeInUpShort");
+        $("#down").removeClass("fadeInDown");
+        $("#word").removeClass("fadeIn");
+    }
+
+    if(height==(-screenHeight*10)){
+        $("#ninecontent").addClass("fadeInDownShort");
+        $("#btcloud").addClass("fadeIn");
+    }
+    if((height>(-screenHeight*9))||(height<(-screenHeight*11))){
+        $("#ninecontent").removeClass("fadeInDownShort");
+        $("#btcloud").removeClass("fadeIn");
+    }
+    if(height==(-screenHeight*11)){
 		$("#playineight").addClass("fadeInUpShort");
 	}
+    if((height>(-screenHeight*10))||(height<(-screenHeight*12))){
+        $("#playineight").removeClass("fadeInUpShort");
+    }
 },400)
 
 
