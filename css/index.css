@@ -17,7 +17,14 @@ body {
     width: 100%;
     height: 100%;
 }
-
+.forwidth{
+  width: 414px;
+  margin: 0 auto;
+  
+} 
+/*.sliderforwidth{
+  left: 396px;
+}*/
 .audio{
   display: none;
 
